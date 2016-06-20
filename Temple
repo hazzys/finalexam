@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Temple{
+  public static void main(String[] args){
+  
+    String name ;
+    int money = 100 ;
+    int zen =0 ;
+    int day = 1;  
+    int end = 0;
+    int turn ;
+  }
+    
+    public static void Player(String name){
+     
+  }
+    
+    public static void Meditate(Player player){
+     int zen =0 ;
+     System.out.println("Think your life? (Y/N)");
+     Scanner in = new Scanner(System. in);
+     String x = in.nextLine();
+     if(x.equals("Y")){
+       System.out.println(zen + 100);
+     }
+       
+    }
+    
+    public static void Help_Someone(Player player){
+      int money = 100 ;
+      int zen =0 ;
+      System.out.println("May I help you? (Y/N)");
+      Scanner in = new Scanner(System. in);
+      String x = in.nextLine();
+      if(x.equals("Y")){
+        System.out.println((zen + 100) + (money - 50));
+      }
+      
+    }
+    
+    public static void WorkCompany(Player player){
+      System.out.println("Do you need money? (Y/N) ");
+      Scanner in = new Scanner(System. in);
+      String x = in.nextLine();
+    }
+      
+    public static void Bow(Player player){
+      System.out.println("Do you want 108 bow? (Y/N)");
+      Scanner in = new Scanner(System. in);
+      String x = in.nextLine();
+      
+      
+      
+}
+}
